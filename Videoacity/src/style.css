@@ -1,0 +1,262 @@
+@font-face 
+{
+    font-family: 'fredoka';
+    src: url('Fonts/fredoka.otf');
+}
+
+@font-face 
+{
+    font-family: 'riffic';
+    src: url('Fonts/RifficFree-Bold.ttf');
+}
+
+@font-face 
+{
+    font-family: 'clip';
+    src: url('Fonts/Clip.ttf');
+}
+
+@font-face 
+{
+    font-family: 'dingbats';
+    src: url('Fonts/Fredoka\ dingbats.ttf');
+}
+
+body
+{
+    background-color: rgb(15, 15, 15);
+    color:white;
+    font-family: 'fredoka';
+    font-size: 40px;
+}
+
+.centeredheading 
+{
+    margin: none;
+    text-align: center;
+    padding: none;
+}
+
+.centeredheading h1 
+{
+    background: linear-gradient(to right, rgb(140, 0, 255),rgb(73, 12, 37),rgb(224, 8, 8));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+.centeredheading p
+{
+    padding-top: 30px;
+}
+
+.centeredheading h3
+{
+    margin: none;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.main-links
+{
+    font-family : 'riffic';
+    font-size: 30px;
+    background: linear-gradient(to right, grey, rgb(59, 59, 59), grey);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    transition: font-size 0.3s;
+
+}
+
+.main-links:hover
+{
+    font-size: 32px;
+}
+
+
+.main-links2
+{   
+    font-family: 'clip';
+    text-decoration: none;
+    font-size: 20px;
+    background: linear-gradient(to left
+    , purple,maroon, pink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.float-right
+{
+    float: right;
+}
+
+.float-left
+{
+    float: left;
+}
+
+.useful-links
+{   
+    float: left;
+    font-size: 10px;
+    text-decoration: none;
+    color: grey;
+    padding: 20px;
+}
+
+.main-nav img
+{
+    width: 90px;
+}
+
+.main-nav p
+{
+    margin: none;
+    padding-right: 30px;
+    float: right;
+    font-size: 20px;
+}
+
+.termsofuse p
+{
+    font-size: 30px;
+    font-family: 'riffic';
+    
+}
+
+.main-footer p
+{
+    font-size: 10px;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffffff;
+  border-radius: 50px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr 
+{
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;  
+}
+
+/* Set a style for the submit/register button */
+.registerbtn 
+{
+  background: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: 'riffic';
+  transition: font-size 0.2s;
+}
+
+.registerbtn:hover 
+{
+  opacity:20;
+  font-size: 25px;
+}
+
+/* Add a blue text color to links */
+a 
+{
+  color: rgb(255, 0, 149);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin 
+{
+  background-color: #c7c4c4;
+  text-align: center;
+}
+
+.container h1
+{
+    text-align: center;
+    font-family: 'riffic';
+    font-size: 50px;
+} 
+
+.container p
+{
+    text-align: center;
+}
+
+.container label
+{
+    text-align: center;
+}
+
+.container-signin
+{
+    text-align: center;
+    background-color: rgb(15,15,15);
+    font-size: 30px;
+}
+
+.main-links3
+{
+    font-family : 'riffic';
+    font-size: 30px;
+    background: linear-gradient(to right, grey, rgb(59, 59, 59), grey);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none;
+
+}
+
+.loginbtn 
+{
+    background: black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'riffic';
+    transition: 0.2s;
+  }
+.loginbtn:hover
+{
+    opacity: 4;
+    font-size: 25px;
+}
+
+.main-footer
+{
+    background-color: rgb(15,15,15);
+    color: white;
+    font-family: 'clip';
+}
